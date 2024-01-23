@@ -1,0 +1,21 @@
+
+services:
+  spy:
+    image: ghcr.io/wormhole-foundation/guardiand:latest
+    platform: linux/amd64
+    ports:
+      - 7073:7073
+    entrypoint: bash -c "
+      /guardiand \
+      spy \
+      --nodeKey /node.key \
+      --spyRPC '[::]:7073' \
+      --network ${WORMHOLE_NETWORK} \
+      --bootstrap ${SPY_BOOTSTRAP}
+      "
+  redis:
+    image: redis
+    ports:
+      - 6379:6379
+
+
