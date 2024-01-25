@@ -21,3 +21,6 @@ typings/
 lib/*.js
 test/*.js
 *.map
+
+# environment
+*.env
