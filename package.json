@@ -19,7 +19,7 @@
         "winston": "^3.8.2",
         "yargs": "^17.7.1",
         "@cosmjs/cosmwasm-stargate": "^0.31.0",
-        "@cosmjs/proto-signing": "^0.31.0",
+        "@cosmjs/proto-signing": "^0.32.2",
         "@cosmjs/tendermint-rpc": "0.31.0",
         "@cosmjs/crypto": "^0.31.0"
     },
