@@ -13,7 +13,8 @@ import { EthClient } from "./eth";
   const config = loadConfig();
 
   defaultLogger.info(
-    "Starting relayer...\n " + `config: ${JSON.stringify(config)}`,
+    "Starting relayer...\n " +
+      `config: ${JSON.stringify(config, undefined, 2)}`,
   );
   // initialize relayer engine app, pass relevant config options
   const cosmosClient = await new CosmosClient().build(config);
