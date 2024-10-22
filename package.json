@@ -19,7 +19,7 @@
         "@cosmjs/tendermint-rpc": "0.31.3",
         "@mysten/sui.js": "^0.32.1",
         "@types/node": "^20.4.2",
-        "@wormhole-foundation/relayer-engine": "^0.2.1",
+        "@wormhole-foundation/relayer-engine": "^0.3.2",
         "koa": "^2.14.1",
         "koa-router": "^12.0.0",
         "node-redis": "^0.1.7",
