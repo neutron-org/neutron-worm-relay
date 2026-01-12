@@ -9,7 +9,7 @@
     },
     "dependencies": {
         "@certusone/wormhole-sdk": "^0.10.11",
-        "@cosmjs/cosmwasm": "^0.25.6",
+        "@cosmjs/cosmwasm": "^0.38.0",
         "@cosmjs/cosmwasm-launchpad": "^0.25.6",
         "@cosmjs/cosmwasm-stargate": "0.31.3",
         "@cosmjs/crypto": "0.31.3",
